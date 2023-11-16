@@ -1,0 +1,15 @@
+create database if not exists mybatis;
+
+use mybatis;
+
+create table user (
+    id int unsigned primary key auto_increment comment 'ID',
+	name varchar(255) comment 'People name',
+	age tinyint unsigned comment 'The people age',
+	gender tinyint unsigned comment 'The 1 for male, 2 is women',
+    phone varchar(11) comment 'Phone number'
+					
+) comment 'The people table';
+
+insert into user(id, name, age, gender, phone) values (null, 'gaoyi', 18, '1', '11111111111');
+insert into user(id, name, age, gender, phone) values (null, 'gaohuitao', 19, '1', '12122121111');
