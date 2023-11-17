@@ -1,0 +1,10 @@
+2023-11-17 20:13:42.235 [ INFO] [           main] c.e.l.Log4j2ConfigureApplication         : Starting Log4j2ConfigureApplication using Java 19.0.2 with PID 9256 (E:\web\Customizing_logging\log4j2_configure\target\classes started by 12413 in E:\web\Customizing_logging\log4j2_configure)
+2023-11-17 20:13:42.247 [DEBUG] [           main] c.e.l.Log4j2ConfigureApplication         : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-17 20:13:42.249 [ INFO] [           main] c.e.l.Log4j2ConfigureApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-11-17 20:13:43.882 [ INFO] [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-17 20:13:43.886 [ INFO] [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2023-11-17 20:13:43.887 [ INFO] [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-17 20:13:44.086 [ INFO] [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2023-11-17 20:13:44.649 [ INFO] [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2023-11-17 20:13:44.703 [ INFO] [           main] c.e.l.Log4j2ConfigureApplication         : Started Log4j2ConfigureApplication in 3.068 seconds (process running for 5.162)
+2023-11-17 20:13:44.707 [ INFO] [           main] c.e.l.Log4j2ConfigureApplication         : CourseTrackerApplication started successfully with Log4j2 configuration!
