@@ -26,12 +26,13 @@ public class CourseTrackerApplication {
         return args -> {
             Course course = new Course();
             course.setId(1);
-            course.setRating(0);
+            course.setRating(2);
             Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
             // Set<ConstraintViolation<Course>> violations = validator.validate(course);
             var violations = validator.validate(course);
             violations.forEach(courseConstraintViolation -> logger.error(
                     "A Constraint violation has occurred. Violation details: [{}].", courseConstraintViolation));
+
         };
     }
 
