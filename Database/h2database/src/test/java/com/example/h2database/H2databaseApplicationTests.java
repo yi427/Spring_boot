@@ -35,6 +35,15 @@ class H2databaseApplicationTests {
     }
 
     @Test
+    void print() {
+        Course course = new Course("Rapid Spring Boot Application Development", "Spring", 4, "'Spring Boot gives all the power of the Spring Framework without all of the complexities");
+        Course savedCourse = courseRepository.save(course);
+        for (var c : courseRepository.findAll()) {
+            System.out.println(c);
+        }
+    }
+
+    @Test
     public void givenUpdateCourseWhenLoadTheCourseThenExpectUpdatedCourse() {
         Course course = new Course("Rapid Spring Boot Application Development", "Spring", 4, "'Spring Boot gives all the power of the Spring Framework without all of the complexities");
         courseRepository.save(course);
